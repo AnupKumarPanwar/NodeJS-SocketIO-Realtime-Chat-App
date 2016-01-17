@@ -4,5 +4,19 @@
   "description": "my first socket.io app",
   "dependencies": {
     "express": "^4.10.2"
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnupKumarPanwar/SpidyChatApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnupKumarPanwar/SpidyChatApp/issues"
   }
 }
