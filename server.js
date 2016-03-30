@@ -4,10 +4,10 @@ var io = require('socket.io')(http);
 var path = require('path');
  
 // Initialize appication with route / (that means root of the application)
-app.get('/', function(req, res){
+app.get('/index.html', function(req, res){
   var express=require('express');
   app.use(express.static(path.join(__dirname)));
-  res.sendFile(path.join(__dirname, '../chat-application', 'index.html'));
+  res.sendFile(path.join(__dirname, '../SpidyChatApp', 'index.html'));
 });
  
 // Register events on socket connection
@@ -21,7 +21,7 @@ io.on('connection', function(socket){
 });
  
 // Listen application request on port 3000
-http.listen(1111, function(){
-  console.log('listening on *:1111');
+http.listen(8080, function(){
+  console.log('listening on *:8080');
 });
 
