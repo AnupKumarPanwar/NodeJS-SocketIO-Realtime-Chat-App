@@ -1,7 +1,7 @@
 {
-  "name": "socket-chat-example",
+  "name": "Spidy Linux",
   "version": "0.0.1",
-  "description": "my first socket.io app",
+  "description": "Anup Spidy Chat",
   "dependencies": {
     "express": "^4.10.2"
   },
