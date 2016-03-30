@@ -1,14 +1,14 @@
 {
   "name": "SpidyChatApp",
-  "version": "0.0.1",
-  "description": "Anup Spidy Chat",
-  "main": "index.js",
+  "version": "5.8.0",
+  "description": "Anup Chat App",
+  "main": "index.html",
   "dependencies": {
     "express": "^4.10.2",
     "http": "^0.0.0",
     "jquery": "^2.2.0",
-    "path": "^0.12.7",
-    "socket.io": "^1.4.4"
+    "socket.io": "^1.4.4",
+    "path": "^0.12.7"
   },
   "devDependencies": {},
   "scripts": {
@@ -20,7 +20,7 @@
   },
   "keywords": [
     "Anup",
-    "Spidy",
+    "Spidey",
     "Chat"
   ],
   "author": "Anup Kumar Panwar",
