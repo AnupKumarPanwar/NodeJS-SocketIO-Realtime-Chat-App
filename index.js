@@ -4,7 +4,7 @@ var io = require('socket.io')(http);
 var path = require('path');
  
 // Initialize appication with route / (that means root of the application)
-app.get('/index.html', function(req, res){
+app.get('/', function(req, res){
   var express=require('express');
   app.use(express.static(path.join(__dirname)));
   res.sendFile(path.join(__dirname, '../SpidyChatApp', 'index.html'));
