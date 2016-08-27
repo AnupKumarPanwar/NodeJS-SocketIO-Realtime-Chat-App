@@ -1,5 +1,5 @@
 {
-  "name": "Spidy Linux",
+  "name": "Spidy Chat App",
   "version": "5.8.0",
   "description": "Anup Chat App",
   "main": "index.html",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AnupKumarPanwar/SpidyChatApp.git"
+    "url": "https://github.com/AnupKumarPanwar/NodeJS-SocketIO-Realtime-Chat-App.git"
   },
   "keywords": [
     "Anup",
