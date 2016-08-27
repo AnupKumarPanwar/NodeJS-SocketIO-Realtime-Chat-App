@@ -1,0 +1,26 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'start' ]
+2 info using npm@3.3.12
+3 info using node@v5.3.0
+4 verbose stack Error: Invalid name: "Spidy Chat App"
+4 verbose stack     at ensureValidName (C:\Program Files\nodejs\node_modules\npm\node_modules\normalize-package-data\lib\fixer.js:331:15)
+4 verbose stack     at Object.module.exports.fixNameField (C:\Program Files\nodejs\node_modules\npm\node_modules\normalize-package-data\lib\fixer.js:210:5)
+4 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\normalize-package-data\lib\normalize.js:32:38
+4 verbose stack     at Array.forEach (native)
+4 verbose stack     at normalize (C:\Program Files\nodejs\node_modules\npm\node_modules\normalize-package-data\lib\normalize.js:31:15)
+4 verbose stack     at final (C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:338:5)
+4 verbose stack     at then (C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:113:5)
+4 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:300:12
+4 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:76:16
+4 verbose stack     at tryToString (fs.js:414:3)
+5 verbose cwd C:\Users\Anup\Desktop\NodeJS-SocketIO-Realtime-Chat-App
+6 error Windows_NT 10.0.10586
+7 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "start"
+8 error node v5.3.0
+9 error npm  v3.3.12
+10 error Invalid name: "Spidy Chat App"
+11 error If you need help, you may report this error at:
+11 error     <https://github.com/npm/npm/issues>
+12 verbose exit [ 1, true ]
